@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "KONVEKSIKU",
+    "slug": "konveksiku",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F2FAFD",
+        "foregroundImage": "./assets/icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Izinkan KONVEKSIKU mengakses galeri foto untuk melampirkan desain pakaian.",
+          "cameraPermission": "Izinkan KONVEKSIKU menggunakan kamera untuk memfoto sampel atau desain pakaian."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}

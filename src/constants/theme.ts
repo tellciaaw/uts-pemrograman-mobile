@@ -1,0 +1,66 @@
+export const COLORS = {
+  background: '#F2FAFD',
+  card: '#FFFFFF',
+  primaryNavy: '#10284D',
+  primaryDark: '#1E293B',
+  accentBlue: '#0076A5',
+  lightBlue: '#EBF4F9',
+  pillBlue: '#E0F2FE',
+  pillText: '#0369A1',
+  activeTabBg: '#DBEAFE',
+  activeTabText: '#10284D',
+  textPrimary: '#0F172A',
+  textSecondary: '#64748B',
+  textMuted: '#94A3B8',
+  border: '#E2E8F0',
+  inputBg: '#EBF4F9',
+  success: '#10B981',
+  successBg: '#D1FAE5',
+  successText: '#065F46',
+  warning: '#F59E0B',
+  warningBg: '#FEF3C7',
+  danger: '#EF4444',
+  dangerBg: '#FEE2E2',
+  star: '#F59E0B',
+  white: '#FFFFFF',
+  black: '#000000',
+  shadowColor: '#64748B',
+};
+
+export const SIZES = {
+  radiusSm: 12,
+  radiusMd: 18,
+  radiusLg: 24,
+  radiusXl: 28,
+  radiusRound: 999,
+  paddingXs: 4,
+  paddingSm: 8,
+  paddingMd: 16,
+  paddingLg: 20,
+  paddingXl: 24,
+};
+
+export const SHADOWS = {
+  soft: {
+    shadowColor: '#64748B',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.08,
+    shadowRadius: 12,
+    elevation: 3,
+  },
+  card: {
+    shadowColor: '#10284D',
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.06,
+    shadowRadius: 16,
+    elevation: 4,
+  },
+  glow: {
+    shadowColor: '#0076A5',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.15,
+    shadowRadius: 10,
+    elevation: 5,
+  },
+};
+
